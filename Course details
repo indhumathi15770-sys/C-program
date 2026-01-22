@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct course{
+    int cid;
+    char cname[20];
+};
+int main(){
+    struct course c;
+    scanf("%d %s",&c.cid,c.cname);
+    printf("%d %s",c.cid,c.cname);
+    return 0;
+}
