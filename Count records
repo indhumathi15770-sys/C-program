@@ -1,0 +1,8 @@
+#include <stdio.h>
+struct s{int id;};
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("Total Records = %d",n);
+    return 0;
+}
