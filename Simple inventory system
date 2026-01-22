@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct item{
+    int id;
+    float price;
+};
+int main(){
+    struct item i;
+    scanf("%d %f",&i.id,&i.price);
+    printf("Item ID=%d Price=%.2f",i.id,i.price);
+    return 0;
+}
