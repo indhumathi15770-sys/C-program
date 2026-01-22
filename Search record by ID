@@ -1,0 +1,12 @@
+#include <stdio.h>
+struct emp{int id;};
+int main(){
+    struct emp e[3];
+    int key;
+    for(int i=0;i<3;i++) scanf("%d",&e[i].id);
+    scanf("%d",&key);
+    for(int i=0;i<3;i++)
+        if(e[i].id==key)
+            printf("Record Found");
+    return 0;
+}
