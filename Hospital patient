@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct patient{
+    int pid;
+    char name[20];
+};
+int main(){
+    struct patient p;
+    scanf("%d %s",&p.pid,p.name);
+    printf("%d %s",p.pid,p.name);
+    return 0;
+}
