@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int n, key, a[10], found=0;
+    printf("Enter number of items: ");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+        scanf("%d",&a[i]);
+    printf("Enter price to search: ");
+    scanf("%d",&key);
+    for(int i=0;i<n;i++){
+        if(a[i]==key){
+            found=1;
+            break;
+        }
+    }
+    if(found) printf("Item Found");
+    else printf("Item Not Found");
+    return 0;
+}
