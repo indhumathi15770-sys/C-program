@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter number of students: ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+        printf("Student %d Present\n", i);
+    return 0;
+}
