@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct mobile{
+    char model[20];
+    int ram;
+};
+int main(){
+    struct mobile m;
+    scanf("%s %d",m.model,&m.ram);
+    printf("%s %dGB",m.model,m.ram);
+    return 0;
+}
