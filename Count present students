@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int n, present=0, a;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        scanf("%d",&a);
+        if(a==1) present++;
+    }
+    printf("Present Students = %d", present);
+    return 0;
+}
