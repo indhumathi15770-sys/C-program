@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    float sale, total=0;
+    for(int i=1;i<=7;i++){
+        scanf("%f",&sale);
+        total += sale;
+    }
+    printf("Total Weekly Sales = %.2f", total);
+    return 0;
+}
