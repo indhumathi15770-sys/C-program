@@ -1,0 +1,16 @@
+#include <stdio.h>
+struct cust{
+    int id;
+    char name[20];
+};
+int main(){
+    struct cust c[3];
+    int key;
+    for(int i=0;i<3;i++)
+        scanf("%d %s",&c[i].id,c[i].name);
+    scanf("%d",&key);
+    for(int i=0;i<3;i++)
+        if(c[i].id==key)
+            printf("Found: %s",c[i].name);
+    return 0;
+}
