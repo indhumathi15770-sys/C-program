@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float amt;
+    printf("Enter amount: ");
+    scanf("%f", &amt);
+    if(amt >= 1000)
+        printf("You get Discount");
+    else
+        printf("No Discount");
+    return 0;
+}
